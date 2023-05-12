@@ -47,7 +47,7 @@ public class Persone {
     }
 
     public void  newBill(){
-
+        int a = 1+1;
 
     }
 }
