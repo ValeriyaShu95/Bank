@@ -42,6 +42,7 @@ public class Main {
         Operations3.transaction4(persone1, persone2, 2);
         System.out.println(persone1Bill2.getAmmount());
         System.out.println(persone2Bill.getAmmount());
+        System.out.println(persone2Bill.getAmmount());
 
     }
 
