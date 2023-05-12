@@ -43,7 +43,8 @@ public class Main {
         System.out.println(persone1Bill2.getAmmount());
         System.out.println(persone2Bill.getAmmount());
         System.out.println(persone2Bill.getAmmount());
+        Bill newBillPersone1 = new Bill(23, 234);
+        persone1.newBill(newBillPersone1);
 
     }
-
 }

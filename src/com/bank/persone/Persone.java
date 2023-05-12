@@ -1,8 +1,11 @@
 package com.bank.persone;
 
+import java.util.ArrayList;
+
 public class Persone {
     private int id;
     private String name;
+    ArrayList<Bill> arrayBills = new ArrayList<>();
     public Bill[] bills;
     Bill mainBill;
 
@@ -46,8 +49,9 @@ public class Persone {
         this.bills = bills;
     }
 
-    public void  newBill(){
-        int a = 1+1;
+    public void newBill(Bill bill){
+        this.arrayBills.add(bill);
+
 
     }
 }
