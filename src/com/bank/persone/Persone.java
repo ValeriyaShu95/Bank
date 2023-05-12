@@ -48,5 +48,6 @@ public class Persone {
 
     public void  newBill(){
 
+
     }
 }
