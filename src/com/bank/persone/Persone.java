@@ -45,4 +45,8 @@ public class Persone {
     public void setBills(Bill[] bills) {
         this.bills = bills;
     }
+
+    public void  newBill(){
+
+    }
 }
